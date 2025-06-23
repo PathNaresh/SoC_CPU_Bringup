@@ -1,7 +1,16 @@
 // ******* UART support added to the existing project ******** //
+
 ///////////////////////////////////////
 // SoC CPU Bring-Up Project - End to End
 ///////////////////////////////////////
+
+// **********************************************************************************
+// UART support has been added to your SoC project:
+// CPU can now print messages using memory-mapped UART at 0xF0000020
+// uart.v outputs characters to the simulation console using $write("%c", ...)
+// platform_regs.sv now includes a UART interface and routes character writes
+// You can now see actual printf-like output during simulation!
+// **********************************************************************************
 
 // Project Structure:
 // ├── Makefile
