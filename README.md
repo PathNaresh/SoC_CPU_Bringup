@@ -30,9 +30,7 @@ Project Structure:
 
 SoC memory map is sparse, meaning different functional units occupy distant address ranges. Here's a visual:
 
-Address Range         | Used For
-----------------------+-------------------------------------
-0x80000000 - 0x8000FFFF | CPU RAM (code + data)
-0x81000000 - 0x8100FFFF | SCP RAM (code)
-0x90000000 - 0x90000003 | CPU Test memory (write/read addr)
-0xF0000000 - 0xF000001F | Platform Registers (reset, clk, status)
+0x80000000 - 0x8000FFFF -> CPU RAM (code + data)
+0x81000000 - 0x8100FFFF -> SCP RAM (code)
+0x90000000 - 0x90000003 -> CPU Test memory (write/read addr)
+0xF0000000 - 0xF000001F -> Platform Registers (reset, clk, status)
