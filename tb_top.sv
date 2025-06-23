@@ -25,10 +25,10 @@ module tb_top;
 
   always @(posedge clk) begin
     if (status == 32'hA5A5A5A5) begin
-      $display("✅ CPU Bring-Up Test: PASS");
+      $display("CPU Bring-Up Test: PASS");
       $finish;
     end else if (status == 32'hDEADBEEF) begin
-      $display("❌ CPU Bring-Up Test: FAIL");
+      $display("CPU Bring-Up Test: FAIL");
       $fatal;
     end
   end
