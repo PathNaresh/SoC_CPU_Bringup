@@ -4,7 +4,7 @@
 
 Project Structure:
 
- ├── Makefile
+     Makefile
  
      cpu_link.ld
      
